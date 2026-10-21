@@ -4,8 +4,8 @@
   "description": "A restful api to provide all information about anime",
   "main": "./api/server.js",
   "scripts": {
-    "start": "node api.js && node ./api/server.js",
-    "dev": "node api.js && nodemon server.js",
+    "start": "node init && node ./api/server.js",
+    "dev": "node init && nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Sayan Das",
